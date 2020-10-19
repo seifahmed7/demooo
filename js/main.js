@@ -13,17 +13,18 @@ $(document).ready(function () {
     });
     
     $(window).on("load", function () {
-        if ($(this).width() < 768) {
-            $('header').css("backgroundImage", "url(../img/bg2.png)");
+        if ($(this).width() <= 1000) {
+            $('header').css("backgroundImage", "url('img/bs.png')");
         } else {
-            $('header').css("backgroundImage", "url(../img/bg.png)");
+            $('header').css("backgroundImage", "url('img/bg.png')");
         }
     });
+    
     $(window).on("resize", function () {
-        if ($(this).width() < 768) {
-            $('header').css("backgroundImage", "url(../img/bg2.png)");
+        if ($(this).width() <= 1000) {
+            $('header').css("backgroundImage", "url('img/bs.png')");
         } else {
-            $('header').css("backgroundImage", "url(../img/bg.png)");
+            $('header').css("backgroundImage", "url('img/bg.png')");
         }
     });
     

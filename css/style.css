@@ -94,7 +94,8 @@ body {
 /* Start Header */
 header {
     position: relative;
-    background-image: url(../img/bg.png);
+    background-image: url('../img/bg.png');
+    background-position: bottom;
     background-size: cover;
     min-height: 115vh;
     overflow-x: hidden;
